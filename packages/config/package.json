@@ -1,0 +1,16 @@
+{
+  "name": "@hyperlocal/config",
+  "version": "1.0.0",
+  "description": "Shared configuration package",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'No build script for config package'",
+    "clean": "echo 'No clean script for config package'",
+    "dev": "echo 'No dev script for config package'",
+    "lint": "echo 'No lint script for config package'",
+    "type-check": "echo 'No type-check script for config package'"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
