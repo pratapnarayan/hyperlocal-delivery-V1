@@ -22,13 +22,26 @@
     "docker:logs": "docker-compose logs -f"
   },
   "devDependencies": {
-    "turbo": "^1.10.7",
     "prettier": "^3.0.0",
+    "turbo": "^1.13.4",
     "typescript": "^5.0.0"
   },
   "packageManager": "npm@9.6.7",
   "workspaces": [
     "apps/*",
     "packages/*"
-  ]
+  ],
+  "main": "seed-data.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pratapnarayan/hyperlocal-delivery-V1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/pratapnarayan/hyperlocal-delivery-V1/issues"
+  },
+  "homepage": "https://github.com/pratapnarayan/hyperlocal-delivery-V1#readme"
 }
